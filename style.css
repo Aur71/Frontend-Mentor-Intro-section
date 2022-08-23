@@ -351,11 +351,25 @@ p {
   }
 
   .client-wrapper img {
-    width: 100%;
+    width: 90%;
   }
 
   .client-wrapper img:nth-of-type(2) {
-    width: 80%;
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 325px) {
+  .client-wrapper {
+    flex-wrap: wrap;
+  }
+
+  .client-wrapper img {
+    width: 80px;
+  }
+
+  .client-wrapper img:nth-of-type(2) {
+    width: 60px;
   }
 }
 
